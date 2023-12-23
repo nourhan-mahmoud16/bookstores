@@ -1,0 +1,102 @@
+<DOCTYPEhtml>
+<html lang="en">
+<head>
+<style>
+*{color:brown;}
+p{color:green;font size:middle;}
+body{background-color:rgb(163,200,243);padding: 5%;font family:"Arial","Times","Serif";font size:100px;
+text-decoration:underline;}
+div>img{display:flex; justify-content:center;align-items:center;}
+div>form3{font size:middle;padding:20%}
+h3{color:blue;font size:large;padding:10%;}
+div>form4{font size:middle;padding:20%}
+h4{color:grey;padding:10%;}
+</style>
+<meta charset="UTF-8>
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<title>book store</title>
+<meta name="description" content="this is our Book Store"/>
+</head>
+<body> 
+<script>
+function mufunction(){
+var element=document.body;
+element.classlist.toggle("dark-mode")
+}
+</script>
+<h1> Welcome </h1>
+<p>Behind every book is an idea,and behind every idea is a step forward.</p>
+<section>
+<div>
+<form action="index.php" method="post">
+<input type="email"placeholder="email"> <br> <br>
+<input tybe="password"placeholder="password"> <br> <br> <br> 
+<button type="supmit" name="btntest" id="btn1">login</button>
+</form> 
+</div>
+<div>
+<img src="photo_2023-11-06_01-50-33.jpg"width="200px" high="200px" z-index="2" alt="">
+</div>
+<h2><b>Book Store</b></h2>
+<div>
+<form2 action="">
+<select name="your favourite type" id="your favourite type">
+<option value="0" selected disabled>choose</option>
+<option value="novels">novels</option>
+<option value="books">books</option>
+</select>
+</form>
+</div>
+<div>
+<img src="../photo_2023-11-26_20-53-00.jpg" width=200px height=200px alt="">
+</div>
+<div>
+<form3 action="">
+<h3>Books</h3>
+<table>
+<tr>
+<th>Name</th>
+<th>price</th>
+</tr>
+<tr>
+<td><the war and peace</td>
+<td>50LE</td>
+</tr>
+<tr>
+<td>the dark area</td>
+<td>70LE</td>
+</tr>
+<tr>
+<td>utopia</td>
+<td>80EL</td>
+</tr>
+</table>
+</form>
+</div>
+<div>
+<form4 action="">
+<table>
+<h4>Novles</h4>
+<tr>
+<th>Name</th>
+<th>price</th>
+</tr>
+<tr>
+<td><zikola land</td>
+<td>40LE</td>
+</tr>
+<tr>
+<td>the blue elephant</td>
+<td>35LE</td>
+</tr>
+<tr>
+<td>amarita</td>
+<td>120EL</td>
+</tr>
+</table>
+</form>
+</div>
+</section>
+</body>
+</html>
+
